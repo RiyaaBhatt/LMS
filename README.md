@@ -2,7 +2,7 @@
 -->npm start
 // to run the backend 
 --> node server.js
-userschema <br/>
+ <br/>userschema -
 Field Name Data Type Constraints
 id INTEGER PRIMARY KEY, AUTO_INCREMENT
 username STRING UNIQUE, NOT NULL
