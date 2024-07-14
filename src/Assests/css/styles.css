@@ -1,0 +1,252 @@
+/* .App {
+    text-align: center;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: #f1f1f1;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+  }
+  
+  .search-books {
+    display: flex;
+    justify-content: center;
+    margin: 1rem 0;
+  }
+  
+  .search-books input {
+    padding: 0.5rem;
+    width: 200px;
+  }
+  
+  .search-books .search-button {
+    padding: 0.5rem;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .content {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+  }
+  
+  .book-list, .user-profile {
+    width: 45%;
+    padding: 1rem;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .book-list h2, .user-profile h2 {
+    margin-top: 0;
+  }
+  
+  .book {
+    display: flex;
+    margin: 1rem 0;
+  }
+  
+  .book img {
+    width: 100px;
+    height: auto;
+  }
+  
+  .book-info {
+    margin-left: 1rem;
+    text-align: left;
+  }
+  
+  .return-button {
+    padding: 0.5rem;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .signout {
+    padding: 0.5rem 1rem;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+   */
+
+
+   /* .App {
+    text-align: center;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #f1f1f1;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+  }
+  
+  .search-books {
+    display: flex;
+    justify-content: center;
+    margin: 1rem 0;
+  }
+  
+  .search-books input {
+    padding: 0.5rem;
+    width: 200px;
+  }
+  
+  .search-books .search-button {
+    padding: 0.5rem;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    gap: 1rem;
+  }
+  
+  .book-list, .user-profile {
+    width: 100%;
+    max-width: 500px;
+    padding: 1rem;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+  }
+  
+  .book-list h2, .user-profile h2 {
+    margin-top: 0;
+  }
+  
+  .book {
+    display: flex;
+    margin: 1rem 0;
+  }
+  
+  .book img {
+    width: 100px;
+    height: auto;
+  }
+  
+  .book-info {
+    margin-left: 1rem;
+    text-align: left;
+  }
+  
+  .return-button {
+    padding: 0.5rem;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .signout {
+    padding: 0.5rem 1rem;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  @media (min-width: 768px) {
+    .content {
+      flex-wrap: nowrap;
+    }
+  
+    .book-list, .user-profile {
+      width: 45%;
+      margin-bottom: 0;
+    }
+  }
+   */
+
+   .App {
+    text-align: center;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+  }
+  
+  .content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    gap: 1rem;
+  }
+  
+  @media (min-width: 768px) {
+    .content {
+      flex-wrap: nowrap;
+    }
+  
+    .book-list, .user-profile {
+      width: 45%;
+      margin-bottom: 0;
+    }
+  }
+  
+
+   /* .App {
+    text-align: center;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+  }
+  
+  .content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    gap: 1rem;
+  }
+  
+  @media (min-width: 768px) {
+    .content {
+      flex-wrap: nowrap;
+    }
+  
+    .book-list, .user-profile {
+      width: 45%;
+      margin-bottom: 0;
+    }
+  }
+   */

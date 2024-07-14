@@ -1,0 +1,42 @@
+/* LoginSignup.css */
+
+.signup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #fff;
+  }
+  
+  .signup-form {
+    width: 400px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    border: 1px solid black;
+  }
+  
+  .signup-form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .signup-form input[type="text"],
+  .signup-form input[type="email"],
+  .signup-form input[type="password"],
+  .signup-form select {
+    width: calc(100% - 20px);
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .signup-form button.signup-button {
+    background-color: white; /* White background */
+    color: #4caf50; /* Green text color */
+    border: 1px solid #4caf50; /* Green border */
+    border-radius: 4px;
+    padding: 8px 16px;
+    cursor: pointer;
+  }

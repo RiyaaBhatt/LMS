@@ -1,0 +1,152 @@
+.navbar {
+  background-color: #f8f9fa; /* Changed to a light background */
+  position: fixed;
+  width: 250px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 0;
+  box-sizing: border-box;
+  top: 0;
+  left: 0;
+  transition: width 0.3s;
+}
+
+.logo {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.logo-text {
+  font-size: 24px;
+  color: #333; /* Changed to dark text */
+  font-weight: bold;
+}
+
+.divider {
+  width: 80%;
+  border: 0.5px solid #333; /* Changed to dark divider */
+  margin-top: 5px;
+}
+
+.nav-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  flex-grow: 1; 
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #333; /* Changed to dark text */
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  width: 80%;
+  padding: 10px;
+  justify-content: start;
+  box-sizing: border-box;
+}
+
+.nav-link:hover {
+  background-color: #333; /* Changed to dark background on hover */
+  color: #f8f9fa; /* Changed to light text on hover */
+  border-radius: 30px;
+}
+
+.nav-link:hover .nav-icon {
+  color: #f8f9fa; /* Changed to light icon color on hover */
+}
+
+.nav-text {
+  margin-left: 10px;
+  display: inline-block;
+  font-size: 1rem;
+}
+
+.nav-icon {
+  color: #333; /* Changed to dark icon color */
+  font-size: 1.5em;
+}
+
+.bottom-links {
+  margin-top: auto;
+  margin-bottom: auto; 
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 0px;
+  position: absolute;
+  bottom: 0px;
+  left: 15px;
+}
+
+.profile-link {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  text-decoration: none;
+  color: #333; /* Changed to dark text */
+  box-sizing: border-box;
+}
+
+.profile-image {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    width: 100%;
+    height: auto;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px 0;
+  }
+
+  .nav-content {
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 0;
+    flex-grow: 0; /* Reset flex-grow */
+  }
+
+  .nav-link {
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+    margin-bottom: 5px;
+  }
+
+  .nav-text {
+    display: none;
+  }
+
+  .bottom-links {
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 0; /* Reset margin-top */
+  }
+
+  .profile-link {
+    margin-bottom: 0;
+  }
+
+  .profile-image {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .nav-link {
+    padding: 8px 0;
+  }
+
+  .nav-text {
+    font-size: 0.8rem;
+  }
+}

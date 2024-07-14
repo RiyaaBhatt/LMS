@@ -1,0 +1,88 @@
+/* Home.css */
+.dashboard-container {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 100vh; /* Make sure it takes the full height of the viewport */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+  }
+  
+  .welcome {
+    text-align: center;
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    flex-grow: 1; /* Allow the grid container to grow and fill the available space */
+  }
+  
+  .grid-item {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+  }
+  
+  .summary-box {
+    height: 150px;
+  }
+  
+  .chart-box {
+    grid-column: span 2;
+    height: 300px;
+  }
+  
+  .time-tracker-box {
+    height: 300px;
+  }
+  
+  .calendar-box {
+    height: 300px;
+  }
+  
+  .course-box {
+    height: 200px;
+  }
+  
+  .payment-box {
+    grid-column: span 2;
+    height: 200px;
+  }
+  
+  .profile-box {
+    height: 200px;
+  }
+  
+  .new-box {
+    height: 200px;
+  }
+  
+  .news-box {
+    grid-column: span 2;
+    height: 400px;
+  }
+  
+  .notifications-box {
+    height: 400px;
+  }
+  
+  @media (max-width: 1024px) {
+    .grid-container {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .grid-container {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+  

@@ -1,0 +1,153 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f4f4f4;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar h2 {
+    margin: 0;
+  }
+  
+  .nav-links a {
+    margin-left: 10px;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .home {
+    padding: 20px;
+  }
+  
+  .search-bar {
+    margin-bottom: 20px;
+  }
+  
+  .search-bar form {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .search-bar input {
+    width: 300px;
+    padding: 8px;
+    margin-right: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .search-bar button {
+    padding: 8px 16px;
+    border: none;
+    background-color: #333;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .book-sections {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .book-list {
+    width: 48%;
+  }
+  
+  .book-list h2 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+  }
+  
+  .book-list ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .book-list li {
+    background: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .search-results {
+    margin-top: 20px;
+  }
+  
+  .search-results h2 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+  }
+  
+  .search-results ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .search-results li {
+    background: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .login {
+    padding: 20px;
+  }
+  
+  .login form div {
+    margin-bottom: 10px;
+  }
+  
+  .login form label {
+    display: block;
+  }
+  
+  .login form input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+  }
+  
+  @media (max-width: 768px) {
+    .book-sections {
+      flex-direction: column;
+    }
+  
+    .book-list {
+      width: 100%;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    body {
+      font-size: 14px;
+    }
+  
+    .navbar {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .navbar .nav-links {
+      margin-top: 10px;
+    }
+  
+    .navbar .nav-links a {
+      margin-left: 0;
+      margin-right: 10px;
+    }
+  }
+  

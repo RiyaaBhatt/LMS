@@ -1,0 +1,37 @@
+.book-list {
+    width: 100%;
+    max-width: 500px;
+    padding: 1rem;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+  }
+  
+  .book-list h2 {
+    margin-top: 0;
+  }
+  
+  .book {
+    display: flex;
+    margin: 1rem 0;
+  }
+  
+  .book img {
+    width: 100px;
+    height: auto;
+  }
+  
+  .book-info {
+    margin-left: 1rem;
+    text-align: left;
+  }
+  
+  .return-button {
+    padding: 0.5rem;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
