@@ -1,3 +1,36 @@
+//To run the frontend part
+-->npm start
+// to run the backend 
+--> node server.js
+userschema
+Field Name Data Type Constraints
+id INTEGER PRIMARY KEY, AUTO_INCREMENT
+username STRING UNIQUE, NOT NULL
+email STRING UNIQUE, NOT NULL
+password STRING NOT NULL
+role ENUM ('Admin', 'Librarian', 'User'), NOT NULL, DEFAULT
+'User'
+first_name STRING
+last_name STRING
+phone_number STRING
+address TEXT
+created_at DATE NOT NULL, DEFAULT NOW
+updated_at DATE NOT NULL, DEFAULT NOW
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
